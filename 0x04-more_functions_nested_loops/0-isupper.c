@@ -2,10 +2,10 @@
 
 /**
  * _isupper - checks for uppercase character
- * @c: Variable text
- * Return: Always 0
+ * @c: the character to be checked
+ * Return: 1 if character is uppercase, 0 if otherwise
  */
-int_isupper(int c)
+int _isupper(int c)
 {
 	if (c >= 'A' && c <= 'Z')
 	{
